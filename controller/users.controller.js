@@ -1,4 +1,5 @@
 const Users = require ('../models/users.models')
+const ValidateUser = require ('../validation/users.validation')
 
 const addUser =  async (req,res)=>{
     try {

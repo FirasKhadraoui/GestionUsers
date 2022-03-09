@@ -5,7 +5,6 @@ const UserSchema = new Schema ({
     FirstName : String,
     LastName : String,
     Email : String,
-    Username : String,
     Age: String
 },{timestamps:true}) //Trace sur BD 
 
